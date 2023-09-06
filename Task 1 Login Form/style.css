@@ -1,0 +1,84 @@
+.main{
+  background: linear-gradient(90deg, rgba(197,6,243,0.9664198931525735) 8%, rgba(244,0,144,1) 100%);
+}
+.container{
+  height: 325px;
+    padding: 30px;
+    text-align: center;
+    width:265px;
+    border-radius: 4px;
+    background-color: rgb(251, 251, 251); 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    box-shadow:2px 4px 25px rgb(180, 45, 162);
+}
+.center{
+  display:flex;
+}
+button{
+    background: linear-gradient(90deg, rgba(197,6,243,0.9664198931525735) 8%, rgba(244,0,144,1) 100%);    border:5px ;
+    width:100px;
+    padding:px;
+    border-radius: 4px;
+  }
+
+  .loginbtn{
+    color: rgb(248, 240, 246);
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    width: 130px;
+  }
+  .loginbtn1{
+    color: rgb(232, 228, 238);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width:270px;
+    height: 35px;
+  }
+ .spacing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+  .forgetpasscode{
+    display: flex;
+    align-content: flex-start;
+    color:purple;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: small;
+  }
+.buttom{
+  font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+}
+.signup{
+  font-size: 14px;
+  text-decoration: none;
+}
+.email{
+  padding: 0 8px;
+  width:250px;
+  border:solid;
+  border-color: grey;
+  border-width: 0.5px;
+  display: flex;
+  align-content: flex-start;
+  border-radius: 4px;
+  /* box-shadow:2px 2px 2px rgb(168, 167, 168); */
+}
+*{
+  font-family: 'Trebuchet',sans-serif;
+}
+input{
+  height:30px;
+  width:100%;
+}
+
